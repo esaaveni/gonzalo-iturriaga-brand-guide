@@ -158,7 +158,7 @@ footer{padding-block:var(--sp-section);color:var(--muted);font-size:var(--t-sm);
 @container page (min-width:44rem){.stmt,.type > div{grid-template-columns:minmax(9rem,22%) minmax(0,1fr)}}
 
 /* listas en filas */
-.rules,.mrules{list-style:none;padding:0;display:grid;max-width:54rem;border-top:1px solid var(--line)}
+.rules,.mrules{list-style:none;padding:0;display:grid;border-top:1px solid var(--line)}
 .rules li,.mrules li{padding-block:var(--sp-s);border-bottom:1px solid var(--line)}
 
 /* ---------- 6. componentes ---------- */
@@ -213,10 +213,12 @@ footer{padding-block:var(--sp-section);color:var(--muted);font-size:var(--t-sm);
 .ba > div{padding:var(--sp-m);background:var(--soft);display:grid;gap:var(--sp-xs);align-content:start;min-width:0}
 .ba .after{background:var(--card);box-shadow:inset 0 0 0 1px var(--fg)}
 .ba p.t{font-family:var(--f-head);font-size:var(--t-md);line-height:1.38}
-.rule{padding:var(--sp-s) var(--sp-m);border:1px solid var(--accent-line);font-size:var(--t-md);line-height:1.4;max-width:54rem}
+.rule{padding:var(--sp-s) var(--sp-m);border:1px solid var(--accent-line);font-size:var(--t-md);line-height:1.4}
 .rules li{display:grid;gap:.2rem}
 .rules b{font-family:var(--f-head);font-weight:500}
-.rules span{color:var(--muted);font-size:var(--t-sm)}
+.rules span{color:var(--muted);font-size:var(--t-sm);max-width:72ch}
+/* nunca dos líneas seguidas: si lo de arriba ya termina en línea o marco, el grupo no dibuja la suya */
+:is(.scroll-x,.rule,.lg-stage,.statements,.type,.rules,.mrules,.prose,.eco) + :is(.rules,.mrules,.prose,.statements,.type){border-top:0}
 .mrules li{font-size:var(--t-sm)}
 
 /* identidad */
