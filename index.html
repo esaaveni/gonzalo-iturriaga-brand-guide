@@ -84,10 +84,11 @@ button{font:inherit;cursor:pointer;border-radius:0}
 
 /* ---------- 3. estructura ---------- */
 .wrap{padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
-.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
-.top-in{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-s);padding-block:var(--sp-xs);max-width:100rem;margin:0 auto}
+/* el logo de la cabecera cumple su propia regla: dos módulos libres arriba y abajo (módulo = ancho del logo / 44) */
+.top{--lk-w:clamp(13.5rem,9rem + 16vw,21.875rem);--lk-mod:calc(var(--lk-w)/44);position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top-in{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-s);padding-block:calc(var(--lk-mod)*2);max-width:100rem;margin:0 auto}
 .brand{display:flex;align-items:center;text-decoration:none;min-width:0}
-.brand svg.brand-lk{display:block;width:clamp(13.5rem,9rem + 16vw,21.875rem);max-width:100%;height:auto;aspect-ratio:1529/175;color:var(--fg);--lk-arq:var(--muted);overflow:visible}
+.brand svg.brand-lk{display:block;width:var(--lk-w);max-width:100%;height:auto;aspect-ratio:1529/175;color:var(--fg);--lk-arq:var(--muted);overflow:visible}
 .top .mono{color:var(--muted);white-space:nowrap}
 .mnav{overflow-x:auto;scrollbar-width:none}
 .mnav::-webkit-scrollbar{display:none}
