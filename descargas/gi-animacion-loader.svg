@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 690 690" role="img" aria-label="Loader del monograma" width="690" height="690">
-<title>Gonzalo Iturriaga Arquitectos. Loader del monograma, en bucle, 5,6 s</title>
-<style>.lbp,.lbr,.lbh{animation-duration:5.6s;animation-iteration-count:infinite;animation-timing-function:linear}
+<title>Gonzalo Iturriaga Arquitectos. Loader del monograma, en bucle, 4,0 s</title>
+<style>.lbp,.lbr,.lbh{animation-duration:4s;animation-iteration-count:infinite;animation-timing-function:linear}
 .lbg{animation-name:lbg} .lbi{animation-name:lbi} .lba{animation-name:lba}
 .lbr{animation-name:lbr} .lbh{animation-name:lbh}
 .lbguia{fill:none;stroke:#C84B31;stroke-width:1.3;opacity:.7}
-@keyframes lbg{0%,2.68%{opacity:0;transform:translateY(8px);animation-timing-function:cubic-bezier(.3,0,.2,1)}11.61%,82.14%{opacity:1;transform:none;animation-timing-function:ease}91.07%,100%{opacity:0;transform:none}}
-@keyframes lbi{0%,8.93%{opacity:0;transform:translateY(8px);animation-timing-function:cubic-bezier(.3,0,.2,1)}17.86%,82.14%{opacity:1;transform:none;animation-timing-function:ease}91.07%,100%{opacity:0;transform:none}}
-@keyframes lba{0%,15.18%{opacity:0;transform:translateY(8px);animation-timing-function:cubic-bezier(.3,0,.2,1)}24.11%,82.14%{opacity:1;transform:none;animation-timing-function:ease}91.07%,100%{opacity:0;transform:none}}
-@keyframes lbr{0%,25%{transform:none;animation-timing-function:cubic-bezier(.4,0,.2,1)}41.07%,100%{transform:translateX(1300px)}}
-@keyframes lbh{0%,42.86%{transform:none;animation-timing-function:cubic-bezier(.45,0,.55,1)}66.07%,100%{transform:translateX(1300px)}}
+@keyframes lbg{0%,3.75%{opacity:0;transform:translateY(8px);animation-timing-function:cubic-bezier(.3,0,.2,1)}16.25%,85%{opacity:1;transform:none;animation-timing-function:ease}95%,100%{opacity:0;transform:none}}
+@keyframes lbi{0%,12.5%{opacity:0;transform:translateY(8px);animation-timing-function:cubic-bezier(.3,0,.2,1)}25%,85%{opacity:1;transform:none;animation-timing-function:ease}95%,100%{opacity:0;transform:none}}
+@keyframes lba{0%,21.25%{opacity:0;transform:translateY(8px);animation-timing-function:cubic-bezier(.3,0,.2,1)}33.75%,85%{opacity:1;transform:none;animation-timing-function:ease}95%,100%{opacity:0;transform:none}}
+@keyframes lbr{0%,35%{transform:none;animation-timing-function:cubic-bezier(.4,0,.2,1)}55%,100%{transform:translateX(1300px)}}
+@keyframes lbh{0%,55%{transform:none;animation-timing-function:cubic-bezier(.45,0,.55,1)}80%,100%{transform:translateX(1300px)}}
 @media (prefers-reduced-motion: reduce){.lbp{animation:none;opacity:1;transform:none}.lbguia{display:none}}</style>
 <g transform="translate(-24 -24) rotate(45)">
   <defs>
